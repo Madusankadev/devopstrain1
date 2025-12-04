@@ -1,0 +1,57 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: sans-serif;
+  font-size: 16px;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-block: 18px;
+  column-gap: 10px;
+  background: rgb(241, 227, 205);
+}
+
+main {
+  padding-block: 30px;
+}
+
+.addBox {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  column-gap: 12px;
+}
+
+.addBox input {
+  font-family: sans-serif;
+  font-size: 1rem;
+  padding: 6px 22px;
+  outline: none;
+  border: 1px solid gray;
+}
+
+.addBox button {
+  background: #0f0f0f;
+  border: none;
+  padding: 8px 22px;
+  border-radius: 4px;
+  font-family: sans-serif;
+  font-size: 1rem;
+  color: #fff;
+}
+
+.addBox button::before {
+  content: "+";
+  margin-right: 8px;
+}
+
+ul {
+  padding: 40px;
+}
